@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>langdetect</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="check.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>langdetect</h1>
+        </header>
+        <textarea id="textinput" placeholder="your code"></textarea>
+        <button onclick="check()">check</button>
+        <p id="output"></p>
+        <table>
+            <tr>
+                <th>language</th>
+                <th>passed tests</th>
+                <th>test</th>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td id="cssv"></td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td id="htmlv"></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td id="jsv"></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Jupyter Notebook</td>
+                <td id="jupyterv"></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>SVG</td>
+                <td id="svgv"></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td id="juliav"></td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td id="pythonv"></td>
+                <td>1</td>
+            </tr>
+        </table>
+        <footer>
+            <a href="https://github.com/weissjulian/langdetect">Github</a>
+            <a href="LICENSE">license</a>
+        </footer>
+    </body>
+</html>
