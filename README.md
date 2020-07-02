@@ -10,6 +10,4 @@ langdetect is mainly written in JavaScript and can be operated via an HTML inter
 To contribute to langdetect, simply choose an issue or suggest changes based on your own ideas. You are also welcome to add other programming languages. Of course it is also helpful if you create a new issue or report a bug.
 langdetect is licensed under GPL 2.
 
-Translated with www.DeepL.com/Translator (free version)
-
 Github: https://github.com/weissjulian/langdetect
